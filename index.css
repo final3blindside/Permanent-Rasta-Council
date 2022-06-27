@@ -1,0 +1,47 @@
+body{
+    background-color: maroon;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1{
+    text-align: center;
+    color: blanchedalmond;
+   
+    font-family: 'Anton', sans-serif;
+    font-size:larger;
+}
+
+.matting{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  
+}
+
+.card {
+    font-size: 20px;
+    text-align: justify;
+    margin:2px;
+    padding: 3px;
+    border-style: solid;
+    border-radius:5px;
+    display: grid;
+    place-items: center;
+  
+}
+
+.card:hover{
+    background-color: rgb(80,0,0);
+}
+
+img{
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.caption{
+    color:azure;
+    text-align: center;
+    
+}

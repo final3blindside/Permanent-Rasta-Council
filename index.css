@@ -1,38 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+
 body{
-    background-color: maroon;
+    background-color: #023047;
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.heading-matting{
+    text-align: justify;
+    margin:2px;
+    padding: 3px;
+
+    border-style:ridge;
+    border-radius: 10px;
+    border-width: 20px;
+
+    box-shadow: 2px 2px;
+
+    display: grid;
+    place-items: center; 
+
+    background-color: #023047;
+
+}
+
 
 h1{
     text-align: center;
-    color: blanchedalmond;
+    color: #fb8500;
    
-    font-family: 'Anton', sans-serif;
-    font-size:larger;
+    font-family: 'Signika', sans-serif;
+    font-size: 50px;
 }
 
-.matting{
+.rasta-dashboard-matting{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
   
 }
 
 .card {
     font-size: 20px;
     text-align: justify;
+
+    background-color: #219ebc;
+
     margin:2px;
     padding: 3px;
-    border-style: solid;
+
+    border-style:groove;
     border-radius:5px;
+    border-width:6px;
+    border-color:lightgrey;
+
+    box-shadow: 1px 1px;
+
     display: grid;
-    place-items: center;
-  
+    place-items: center; 
 }
 
 .card:hover{
-    background-color: rgb(80,0,0);
+    background-color: rgb(90,90,90);
+    font-size: 'Signika', sans-serif;
+    color:#ffb703;
 }
 
 img{
@@ -41,7 +70,34 @@ img{
 }
 
 .caption{
-    color:azure;
+    color:black;
+    font-family: 'Signika', sans-serif;
     text-align: center;
-    
+}
+
+.caption:hover{
+    color:#ffb703;
+}
+
+.matting{
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+
+    color:#ffb703;
+
+    margin:2px;
+    padding: 3px;
+
+    border-style:ridge;
+    border-radius: 10px;
+    border-width: 20px;
+
+    box-shadow: 2px 2px;
+
+    display: grid;
+    place-items: center; 
+
+    background-color: #023047
+
 }

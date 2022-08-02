@@ -1,5 +1,0 @@
-function entername(){
-
-}
-
-entername();
